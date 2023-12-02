@@ -1,0 +1,62 @@
+.header__bg-color {
+    background-color: #f8f8f8;
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+header .header__left {
+    display: flex;
+}
+
+.telephone {
+    margin-right: 50px;
+}
+
+.Email {
+    margin-right: 50px;
+}
+
+.address {
+    margin-right: 418px;
+}
+
+.telephone p,
+.address p,
+.Email p {
+    color: #B9B9B9;
+    font-family: Tahoma;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+
+.telephone h4,
+.address h4,
+.Email h4 {
+    color: #222;
+    font-family: Tahoma;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+header .btn {
+    padding: 17px 30px;
+    border: 1px solid #e3e3e3;
+    background: #fff;
+}
+
+header .btn button {
+    background: transparent;
+    color: #222;
+    font-family: Gilroy;
+    font-size: 15px;
+    font-weight: 500;
+}
